@@ -1,0 +1,46 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python cache files (if using Python)
+__pycache__/
+*.pyc
+
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.so
+
+# Ignore build directories
+build/
+dist/
+target/
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+*.iml
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore bin and obj folders
+bin/
+obj/
+
+# Ignore large files or specific files
+path/to/your/large-file
+*.zip
+*.tar
+*.gz
